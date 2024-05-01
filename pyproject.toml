@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-code-examples"
+version = "0.1.0"
+description = "This repo contains Python code examples for quick reference"
+authors = ["Arpan Majumdar <arpan.majumdar.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
